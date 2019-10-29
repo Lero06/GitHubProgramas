@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=TimeInstant
+comment0.text=\r\n\ Clase\ TimeInstant.\ \r\n<p>\r\n\ Esta\ clase\ permite\ representar\ instantes\ o\ marcas\ de\ tiempo\r\n\ (<code>Timestamp</code>)\ con\ detalle\ de\ horas\ y\ minutos.\ As\u00ED,\ \ \r\n\ esta\ clase\ representa\ el\ momento\ que\ define\ un\ instante\ de\ tiempo,\r\n\ en\ este\ caso,\ las\ horas\ y\ los\ minutos\ de\ un\ d\u00EDa\ cualquiera.\r\n\ </p>\r\n\ \r\n\ \ @author\ IIP.\ Grado\ en\ Informatica.\ ETSINF,\ UPV\ \r\n\ \ @version\ Curso\ 2019-20\r\n
+comment1.params=iniHours\ iniMinutes
+comment1.target=TimeInstant(int,\ int)
+comment1.text=\r\n\ \ Crea\ un\ <code>TimeInstant</code>\ con\ el\ valor\ de\r\n\ \ las\ horas\ y\ los\ minutos\ que\ recibe\ como\ argumentos,\r\n\ \ <code>iniHours</code>\ y\ <code>iniMinutes</code>,\ \r\n\ \ respectivamente.\r\n\ \ <p>\ Debe\ cumplirse\ la\ precondici\u00F3n\:\ \r\n\ \ <code>0\ <\=\ iniHours\ <\ 24,\ 0\ <\=\ iniMinutes\ <\ 60</code>.\ </p>\r\n
+comment10.params=tInstant
+comment10.target=int\ compareTo(TimeInstant)
+comment10.text=\ Compara\ cronol\u00F3gicamente\ el\ instante\ del\ objeto\ en\ curso\r\n\ \ con\ el\ del\ objeto\ de\ la\ clase\ TimeInstant\r\n\ \ referenciado\ por\ tInstant.\r\n\ \ \r\n\ \ El\ resultado\ es\ la\ resta\ entre\ la\ conversi\u00F3n\ a\ minutos\r\n\ \ de\ ambos\ objetos,\ en\ particular,\ este\ resultado\ ser\u00E1\ un\ valor\:\r\n\ \ \r\n\ \ \ \ \ \ negativo\ si\ el\ instante\ del\ objeto\ en\ curso\ es\ anterior\r\n\ \ \ \ \ \ \ \ \ \ al\ del\ tInstant,\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ cero\ si\ son\ iguales,\r\n\ \ \ \ \ \ \r\n\ \ \ \ \ \ positivo\ si\ el\ instante\ del\ objeto\ en\ curso\ es\ posterior\r\n\ \ \ \ \ \ \ \ \ \ al\ del\ tInstant\r\n\ \ \r\n\ \ \r\n
+comment2.params=
+comment2.target=TimeInstant()
+comment2.text=\r\n\ Crea\ un\ <code>TimeInstant</code>\ con\ el\ valor\ del\ instante\r\n\ actual\ UTC\ (tiempo\ universal\ coordinado).\r\n
+comment3.params=
+comment3.target=int\ getHours()
+comment3.text=Devuelve\ las\ horas\ del\ TimeInstant.
+comment4.params=
+comment4.target=int\ getMinutes()
+comment4.text=Devuelve\ los\ minutos\ del\ TimeInstant.
+comment5.params=iniHours
+comment5.target=void\ setHours(int)
+comment5.text=Actualiza\ las\ horas\ del\ TimeInstant.
+comment6.params=iniMinutes
+comment6.target=void\ setMinutes(int)
+comment6.text=Actualiza\ los\ minutos\ del\ TimeInstant.
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=Devuelve\ el\ TimeInstant\ en\ el\ formato\ "<code>hh\:mm</code>".
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment8.text=\ Devuelve\ <code>true</code>\ sii\ <code>o</code>\ es\ \r\n\ \ un\ objeto\ de\ la\ clase\ <code>TimeInstant</code>\r\n\ \ y\ sus\ horas\ y\ minutos\ coinciden\ con\ los\ del\ \r\n\ \ objeto\ en\ curso.\ \r\n
+comment9.params=
+comment9.target=int\ toMinutes()
+comment9.text=\ Devuelve\ el\ n\u00FAmero\ de\ minutos\ transcurridos\ desde\ las\ 00\:00\ \r\n\ \ hasta\ el\ instante\ representado\ por\ el\ objeto\ en\ curso.\r\n
+numComments=11

@@ -1,0 +1,29 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-11-openjdk-11.0.3.7-0.el7_6.x86_64/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+/opt/bluej4.2.1/lib/bluejcore.jar:/opt/bluej4.2.1/lib/junit-4.11.jar:/opt/bluej4.2.1/lib/hamcrest-core-1.3.jar:/opt/bluej4.2.1/lib/lang-stride.jar:/opt/javafx-sdk-11.0.2/lib/javafx.base.jar:/opt/javafx-sdk-11.0.2/lib/javafx.controls.jar:/opt/javafx-sdk-11.0.2/lib/javafx.fxml.jar:/opt/javafx-sdk-11.0.2/lib/javafx.graphics.jar:/opt/javafx-sdk-11.0.2/lib/javafx.media.jar:/opt/javafx-sdk-11.0.2/lib/javafx.properties.jar:/opt/javafx-sdk-11.0.2/lib/javafx.swing.jar:/opt/javafx-sdk-11.0.2/lib/javafx.web.jar:/labos/alumnos/aestcar/DiscoW/iip
+-d
+/labos/alumnos/aestcar/DiscoW/iip/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+/labos/alumnos/aestcar/DiscoW/iip/pract4/TimeInstant.java
+<---- end of javadoc command ---->
+Loading source file /labos/alumnos/aestcar/DiscoW/iip/pract4/TimeInstant.java...
+/labos/alumnos/aestcar/DiscoW/iip/pract4/TimeInstant.java:111: error: invalid method declaration; return type required
+    public compareTo(){
+           ^
+1 error
