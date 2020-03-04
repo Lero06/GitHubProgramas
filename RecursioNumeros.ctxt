@@ -1,0 +1,62 @@
+#BlueJ class context
+comment0.target=RecursioNumeros
+comment0.text=\r\n\ Problemes\ recursius\ numerics.\r\n\ \r\n\ @author\ PRG\r\n\ @version\ Curs\ 2019/20\r\n
+comment1.params=
+comment1.target=RecursioNumeros()
+comment10.params=a\ b
+comment10.target=int\ mcd(int,\ int)
+comment10.text=\ Torna\ el\ mcd\ d'a\ i\ b,\ aplicant\ l'algorisme\ d'Euclides\:\r\n\ \ Si\ a\=b,\ el\ mcd\ es\ b.\r\n\ \ Si\ a>b,\ el\ mcd\ es\ el\ mcd\ de\ a-b\ i\ b.\r\n\ \ Si\ a<b,\ el\ mcd\ es\ el\ mcd\ de\ a\ i\ b-a.\r\n\ \ PRECONDICIO\:\ a\ >\ 0\ i\ b\ >\ 0\r\n
+comment11.params=a\ b
+comment11.target=int\ euclides(int,\ int)
+comment11.text=\ Torna\ el\ mcd\ d'a\ i\ b,\ aplicant\ la\ versio\ millorada\ \r\n\ \ de\ l'algorisme\ d'Euclides.\r\n\ \ Si\ el\ residu\ de\ a/b\ es\ 0,\ el\ mcd\ es\ b.\r\n\ \ En\ un\ altre\ cas,\ el\ mcd\ es\ el\ mcd\ de\ b\ i\ el\ residu\ de\ a/b.\r\n\ \ PRECONDICIO\:\ a\ >\ 0\ i\ b\ >\ 0\r\n
+comment12.params=a\ b
+comment12.target=int\ quocient(int,\ int)
+comment12.text=\ Torna\ el\ quocient\ de\ la\ divisio\ entera\ d'a\ entre\ b.\ \r\n\ \ Si\ a<b,\ a/b\ \=\ 0.\r\n\ \ Si\ a>\=b,\ a/b\ \=\ (a-b)/b\ +\ 1.\r\n\ \ PRECONDICIO\:\ a\ >\=\ 0\ i\ b\ >\ 0\r\n
+comment13.params=a\ b
+comment13.target=double\ potenciaM(double,\ int)
+comment13.text=\ Torna\ a^b,\ aplicant\:\r\n\ \ Si\ b\=0,\ a^b\ \=\ 1.\r\n\ \ Si\ b\=1,\ a^b\ \=\ a.\r\n\ \ Si\ b>1\ i\ b\ es\ parell,\ a^b\ \=\ a^(b/2)\ *\ a^(b/2).\r\n\ \ Si\ b>1\ i\ b\ es\ senar,\ a^b\ \=\ a^(b/2)\ *\ a^(b/2)\ *\ a.\r\n\ \ PRECONDICIO\:\ a\ \!\=\ 0\ i\ b\ >\=\ 0\r\n
+comment14.params=n
+comment14.target=int\ sumaDigits(int)
+comment14.text=\ Torna\ la\ suma\ dels\ digits\ de\ n.\r\nPRECONDICIO\:\ n\ >\=\ 0
+comment15.params=n
+comment15.target=int\ nombreDigits(int)
+comment15.text=\ Torna\ el\ nombre\ de\ digits\ de\ n.\r\nPRECONDICIO\:\ n\ >\=\ 0
+comment16.params=n
+comment16.target=void\ mostraInvers(int)
+comment16.text=\ Mostra\ per\ pantalla\ l'invers\ de\ n.\r\nPRECONDICIO\:\ n\ >\=\ 0
+comment17.params=a\ b
+comment17.target=int\ producte(int,\ int)
+comment17.text=\ Torna\ el\ producte\ d'a\ per\ b.\r\n\ \ Si\ b\=0,\ a*b\ \=\ 0.\r\n\ \ Si\ b>0,\ a*b\ \=\ a*(b-1)\ +\ a.\r\n\ \ PRECONDICIO\:\ b\ >\=\ 0\r\n
+comment18.params=a\ b
+comment18.target=int\ alaRussa(int,\ int)
+comment18.text=\ Torna\ el\ producte\ de\ a\ per\ b,\ aplicant\r\n\ \ la\ multiplicacio\ a\ la\ russa\:\r\n\ \ Si\ b\=0,\ a*b\ \=\ 0.\r\n\ \ Si\ b>0\ i\ b\ es\ parell,\ a*b\ \=\ (a*2)\ *\ (b/2).\r\n\ \ Si\ b>0\ i\ b\ es\ senar,\ a*b\ \=\ (a*2)\ *\ (b/2)\ +\ a.\r\n\ \ PRECONDICIO\:\ b\ >\=\ 0\r\n
+comment19.params=n
+comment19.target=void\ del1Aln(int)
+comment19.text=\ Mostra\ per\ pantalla\ els\ enters\ de\ l'1\ al\ n.\r\nPRECONDICIO\:\ n\ >\ 0
+comment2.params=n
+comment2.target=int\ factorialIt(int)
+comment2.text=\ Torna\ el\ factorial\ de\ n,\r\n\ \ aplicant\ una\ estrategia\ iterativa.\r\nPRECONDICIO\:\ n\ >\=\ 0
+comment20.params=n
+comment20.target=void\ delnAl1(int)
+comment20.text=\ Mostra\ per\ pantalla\ els\ enters\ del\ n\ a\ l'1.\r\nPRECONDICIO\:\ n\ >\ 0
+comment3.params=n
+comment3.target=int\ factorial(int)
+comment3.text=\ Torna\ el\ factorial\ de\ n,\r\n\ \ aplicant\ una\ estrategia\ recursiva.\r\nPRECONDICIO\:\ n\ >\=\ 0
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment5.params=n
+comment5.target=int\ blocs(int)
+comment5.text=\ Torna\ el\ n\u00FAmero\ de\ blocs\ que\ forma\ una\ piramide\ \r\n\ \ escalonada\ d'altura\ n,\ n\ >\=\ 1.\r\n\ \ Una\ piramide\ escalonada\ d'altura\ n,\ n\ >\=\ 1,\ es\ una\ \r\n\ \ construccio\ de\ n\ nivells\ de\ costats\ decreixents\ \r\n\ \ n,\ n\ \u2013\ 1,\ \u2026,\ 2,\ 1.\ En\ la\ piramide,\ el\ nivell\ i\ esta\ \r\n\ \ format\ per\ una\ plataforma\ quadrada\ de\ i\ *\ i\ blocs.\r\nPRECONDICIO\:\ n\ >\=\ 1
+comment6.params=n
+comment6.target=void\ escriuRaro(int)
+comment6.text=\ Que\ fa\ aquest\ metode?\r\nPRECONDICIO\:\ n\ >\=\ 0
+comment7.params=a\ n
+comment7.target=double\ potencia(double,\ int)
+comment7.text=\ Torna\ a^n,\ aplicant\:\ \r\n\ \ Si\ n\=0,\ aleshores\ a^n\ \=\ 1.\r\n\ \ Si\ n>0,\ aleshores\ a^n\ \=\ a^(n-1)\ *\ a.\r\n\ \ PRECONDICIO\:\ a\ \!\=\ 0\ i\ n\ >\=\ 0\r\n
+comment8.params=a\ b
+comment8.target=int\ residu(int,\ int)
+comment8.text=\ Torna\ el\ residu\ del\ quocient\ entre\ a\ i\ b.\r\n\ \ Si\ a\ <\ b,\ aleshores\ el\ residu\ de\ a/b\ es\ a.\r\n\ \ En\ un\ altre\ cas,\ el\ residu\ de\ a/b\ es\ el\ residu\ de\ (a-b)/b.\r\n\ \ PRECONDICIO\:\ a\ >\=\ 0\ i\ b\ >\ 0\r\n
+comment9.params=n
+comment9.target=int\ fibonacci(int)
+comment9.text=\ Torna\ el\ terme\ n-esim\ de\ la\ successio\ de\ Fibonacci\r\n\ \ (assumint\ que\ el\ terme\ 0-esim\ es\ el\ primer\ de\ la\ successio).\ \r\n\ \ Si\ n<\=1,\ el\ valor\ del\ terme\ n-esim\ es\ n.\r\n\ \ En\ un\ altre\ cas,\ es\ la\ suma\ dels\ termes\ (n-1)-esim\ i\ (n-2)-esim.\r\n\ \ PRECONDICIO\:\ n\ >\=\ 0\r\n
+numComments=21
