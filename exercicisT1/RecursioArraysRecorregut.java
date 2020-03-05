@@ -80,8 +80,12 @@ public class RecursioArraysRecorregut {
      *  int max = maximAsc(a, 0);
      */
     public static int maximAsc(int[] a, int pos) {
-        /* COMPLETAR */
-        return 0;
+        if(pos == a.length-1){return a[pos];}
+        else{
+        int maxim = maximAsc(a, pos + 1);
+        if(a[pos] > maxim){return a[pos];}
+        else{return maxim;}
+        }
     }
 
     /** Torna el maxim de a[0..pos].
@@ -91,8 +95,12 @@ public class RecursioArraysRecorregut {
      *  int max = maximDesc(a, a.length - 1);
      */
     public static int maximDesc(int[] a, int pos) {
-        /* COMPLETAR */
-        return 0;
+        if(pos == 0){return a[pos];}
+        else{
+        int maxim = maximAsc(a, pos - 1);
+        if(a[pos] > maxim){return a[pos];}
+        else{return maxim;}
+        }
     }
     
     /** Inverteix els elements de a[ini..fi].
@@ -103,7 +111,11 @@ public class RecursioArraysRecorregut {
      *  invertir(a, esq, dre);
      */
     public static void invertir(int[] a, int ini, int fi) {
-        /* COMPLETAR */
+        if(ini == fi){System.out.print(a[ini]);}
+        else{
+            invertir(a, ini + 1, fi);
+            System.out.print(a[ini]);
+        }
     }
     
     /** Duplica els elements de a[ini..fi].
@@ -114,7 +126,14 @@ public class RecursioArraysRecorregut {
      *  duplicarAsc(a, esq, dre);
      */
     public static void duplicarAsc(int[] a, int ini, int fi) {
-        /* COMPLETAR */
+        if(ini == fi){System.out.print(a[ini]);
+            System.out.print(a[ini]);
+        }
+        else{
+            System.out.print(a[ini]);
+            System.out.print(a[ini]);
+            duplicarAsc(a, ini + 1, fi);
+        }
     }
     
     /** Duplica els elements de a[ini..fi].
@@ -124,6 +143,17 @@ public class RecursioArraysRecorregut {
      *  esq i dre donades (0 <= esq <= dre <= a.length - 1):
      *  duplicarAsc(a, esq, dre);
      */
+    public static void duplicarDesc(int[] a, int ini, int fi) {
+        if(fi == ini){System.out.print(a[fi]);
+            System.out.print(a[fi]);
+        }
+        else{
+            duplicarDesc(a, ini, fi - 1);
+            System.out.print(a[fi]);
+            System.out.print(a[fi]);
+        }
+    }
+}
     public static void duplicarDesc(int[] a, int ini, int fi) {
         /* COMPLETAR */
     }
