@@ -1,3 +1,4 @@
+
 /**
  * Problemes recursius de cerca amb arrays.
  * 
@@ -91,8 +92,11 @@ public class RecursioArraysCerca {
      *  boolean ordenat = ordreAsc(a, 0);
      */
     public static boolean ordreAsc(int[] a, int pos) {
-        /* COMPLETAR */
-        return true;
+        if(pos == a.length - 1){return true;}
+        else{
+            if(a[pos] < a[pos + 1]){return ordreAsc(a, pos + 1);}
+            else{return false;}
+        }
     }
 
     /** Comprova si a[ini..fi] es capicua.
@@ -102,8 +106,7 @@ public class RecursioArraysCerca {
      *  boolean capicua = esCapicua(a, 0, a.length - 1);
      */
     public static boolean esCapicua(int[] a, int ini, int fi) {
-        /* COMPLETAR */
-        return true;
+        
     }
     
     /** Comprova si en a[pos..a.length-1] hi ha una subsequencia de
