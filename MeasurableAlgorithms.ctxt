@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MeasurableAlgorithms
+comment0.text=\ Class\ MeasurableAlgorithms\:\ clase\ con\ los\ metodos\ a\ analizar.\ \r\n\ \ Es\ una\ clase\ de\ utilidades.\r\n\ \ @author\ PRG\ -\ ETSInf\r\n\ \ @version\ Curso\ 2019-2020\r\n
+comment1.params=
+comment1.target=MeasurableAlgorithms()
+comment1.text=No\ hay\ objetos\ de\ esta\ clase.
+comment2.params=a\ e
+comment2.target=int\ linearSearch(int[],\ int)
+comment2.text=\ Linear\ Search\r\n\ \ @param\ a\ int[],\ array\ of\ int\r\n\ \ @param\ e\ int,\ value\ to\ look\ for\r\n\ \ @return\ int,\ position\ of\ e\ in\ a\ or\ -1\ if\ e\ is\ not\ in\ a\r\n
+comment3.params=a
+comment3.target=void\ selectionSort(int[])
+comment3.text=\ Selection\ Sort\r\n\ \ @param\ a\ int[],\ array\ of\ int\r\n
+comment4.params=a
+comment4.target=void\ insertionSort(int[])
+comment4.text=\ InsertionSort\r\n\ \ @param\ a\ int[],\ array\ of\ int\r\n
+comment5.params=a\ left\ right
+comment5.target=void\ mergeSort(int[],\ int,\ int)
+comment5.text=\ mergeSort\r\n\ \ @param\ a\ int[],\ array\ of\ int\r\n\ \ @param\ left\ \ int,\ leftmost\ position\ of\ the\ slice\ \r\n\ \ of\ the\ array\ to\ to\ be\ sorted\r\n\ \ @param\ right\ int,\ rightmost\ position\ of\ the\ slice\r\n\ \ of\ the\ array\ to\ to\ be\ sorted\ \r\n
+comment6.params=a\ left\ half\ right
+comment6.target=void\ naturalMerge(int[],\ int,\ int,\ int)
+comment6.text=\ Natural\ Merge\ to\ be\ used\ in\ Merge\ Sort\r\n\ \ @param\ a\ int[],\ array\ of\ int\r\n\ \ @param\ left\ \ int,\ leftmost\ position\ of\ the\ slice\ \r\n\ \ of\ the\ array\ to\ to\ be\ sorted\r\n\ \ @param\ right\ int,\ rightmost\ position\ of\ the\ slice\ \r\n\ \ of\ the\ array\ to\ to\ be\ sorted\r\n\ \ @param\ half\ \ int,\ central\ position\ of\ the\ slice\ \r\n\ \ of\ the\ array\ to\ to\ be\ sorted\ \r\n
+numComments=7
