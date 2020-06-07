@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TestSortedRegister
+comment0.text=\r\n\ Classe\ TestSortedRegister.\ Test\ de\ la\ classe\ SortedRegister.\r\n\ \r\n\ @author\ (PRG.\ ETSINF\ -\ UPV)\r\n\ @version\ (2019/20)\r\n
+comment1.params=
+comment1.target=TestSortedRegister()
+comment1.text=No\ hi\ ha\ objectes\ d'aquesta\ classe.
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=year\ in\ out
+comment3.target=void\ test1(int,\ java.util.Scanner,\ java.io.PrintWriter)
+comment3.text=\ Metode\ de\ prova\ d'add(Scanner)\ i\ save(PrintWriter)\r\n\ \ de\ SortedRegister.\ Processa\ les\ dades\ llegides\ d'in.\r\n\ \ Les\ dades\ processades\ es\ guarden\ en\ out.\r\n\ \ Si\ es\ troba\ algun\ error\ en\ les\ dades\ d'entrada,\r\n\ \ el\ proces\ acaba\ i\ out\ queda\ buit.\r\n\ \ @param\ year\ any\ de\ les\ dades.\r\n\ \ @param\ sc\ Scanner\ font\ de\ les\ dades.\r\n\ \ @param\ out\ PrintWriter\ desti\ de\ les\ dades\ processades.\r\n
+comment4.params=year\ in\ out\ err
+comment4.target=void\ test2(int,\ java.util.Scanner,\ java.io.PrintWriter,\ java.io.PrintWriter)
+comment4.text=\ Metode\ de\ prova\ d'add(Scanner)\ i\ save(PrintWriter)\r\n\ \ de\ SortedRegister.\ Processa\ les\ dades\ llegides\ d'in.\r\n\ \ Les\ dades\ processades\ es\ guarden\ en\ out.\r\n\ \ Si\ es\ troba\ alguna\ linia\ erronia,\ s'ignora\:\ \r\n\ \ les\ seues\ dades\ no\ es\ processen\ i\ en\ err\ es\ registra\ el\ \r\n\ \ nombre\ de\ linia\ i\ l'error\ trobat.\r\n\ \ @param\ year\ any\ de\ les\ dades.\r\n\ \ @param\ sc\ Scanner\ font\ de\ les\ dades.\r\n\ \ @param\ out\ PrintWriter\ desti\ de\ les\ dades\ processades.\r\n\ \ @param\ err\ PrintWriter\ desti\ de\ l'informe\ d'errors.\r\n
+numComments=5

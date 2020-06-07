@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SortedRegister
+comment0.text=\r\n\ Classe\ SortedRegister\:\ conte\ un\ array\ bidimensional\ m\ on\ les\ files\ son\ mesos\ i\r\n\ les\ columnes\ son\ els\ dies\ de\ cada\ mes,\ de\ manera\ que\ m[f][c]\ correspon\ a\ la\ \r\n\ quantitat\ d'accidents\ acumulats\ el\ dia\ c\ del\ mes\ f.\r\n\ La\ classe\ conte\ els\ metodes\ necessaris\ per\ bolcar\ la\ informacio\ llegida\ des\ d'un\r\n\ Scanner\ sobre\ la\ matriu\ i,\ al\ seu\ torn,\ bolcar\ la\ informacio\ de\ la\ matriu\ en\ un\r\n\ PrintWriter.\r\n\ @author\ (PRG.\ ETSINF\ -\ UPV)\ \r\n\ @version\ (2019/20)\ \ \r\n
+comment1.params=dataYear
+comment1.target=SortedRegister(int)
+comment1.text=\ Crea\ un\ SortedRegister\ per\ a\ l'any\ dataYear.\r\n\ \ @param\ dataYear\ int.\r\n
+comment2.params=sc
+comment2.target=int\ add(java.util.Scanner)
+comment2.text=\ Classifica\ ordenadament\ les\ dades\ llegides\ del\ Scanner\ s.\r\n\ \ Precondicio\:\ El\ format\ de\ linia\ recognoscible\ es\:\ <br>\r\n\ \ \ \ \ \ \ \ dia\ mes\ quantitat\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <br>\r\n\ \ on\ dia\ i\ mes\ han\ de\ ser\ enters\ corresponents\ a\ una\ data\ valida,\r\n\ \ i\ quantitat\ ha\ de\ ser\ un\ enter\ >\ 0.\ \ \ \ \ \ \ \ \ \ \ \ \ \ <br>\r\n\ \ La\ quantitat\ llegida\ s'acumula\ en\ el\ registre\ que\ es\ porta\ per\ \r\n\ \ al\ dia\ del\ mes.\ \ \r\n\ \ \r\n\ \ Retorna\ el\ nombre\ de\ linies\ processades.\r\n\ \ \r\n\ \ @throws\ NumberFormatException\ si\ es\ llig\ un\ dada\ no\ entera.\r\n\ \ @throws\ IllegalArgumentException\ si\ la\ linia\ no\ conte\ 3\ dades,\r\n\ \ o\ no\ s'ajusten\ al\ format\ de\ data\ i\ quantitat\ correctes.\r\n\ \ \r\n\ \ @param\ sc\ Scanner\ font\ de\ les\ dades.\r\n\ \ @return\ int\r\n\ \ \r\n
+comment3.params=line
+comment3.target=void\ handleLine(java.lang.String)
+comment3.text=\ Metode\ d'ajuda\ per\ al\ metode\ add\:\ processa\ les\ dades\ de\ line,\ String\ \r\n\ \ corresponent\ a\ una\ linia\ llegida\ del\ Scanner.\r\n\ \ El\ format\ de\ line\ ha\ de\ tindre\ la\ forma\r\n\ \ \ \ \ \ \ \ dia\ mes\ quantitat\r\n\ \ on\ dia\ i\ mes\ han\ de\ ser\ enters\ corresponents\ a\ una\ data\ \ \r\n\ \ valida,\ i\ quantitat\ ha\ de\ ser\ un\ enter\ >\ 0.\r\n\ \ -\ Si\ les\ dades\ de\ la\ linia\ son\ correctes,\ la\ quantitat\ llegida\ s'acumula\r\n\ \ en\ el\ registre\ que\ es\ porta\ per\ al\ dia\ del\ mes.\r\n\ \ -\ Si\ les\ dades\ son\ incorrectes,\ el\ metode\ acaba\ llan\u00E7ant\ una\ excepcio.\r\n\r\n\ \ @param\ line\ String\ font\ de\ les\ dades.\r\n\ \ @throws\ NumberFormatExceptionException\ si\ es\ llig\ una\ dada\ no\ entera.\ \r\n\ \ @throws\ IllegalArgumentException\ si\ la\ linia\ no\ conte\ 3\ dades,\r\n\ \ o\ no\ s'ajusten\ al\ format\ de\ data\ i\ quantitat\ correctes.\r\n
+comment4.params=pw
+comment4.target=void\ save(java.io.PrintWriter)
+comment4.text=\ Les\ dades\ registrades\ >\ 0\ s'escriuen\ en\ p,\ linia\ a\ linia\r\n\ \ amb\ el\ format\r\n\ \ \ \ \ \ \ \ dia\ \ mes\ \ quantitat\r\n\ \ ordenades\ cronologicament.\r\n\ \ @param\ pw\ Printwriter\ desti\ de\ les\ dades\ ordenades.\r\n
+comment5.params=sc\ err
+comment5.target=int\ add(java.util.Scanner,\ java.io.PrintWriter)
+comment5.text=\ Classifica\ ordenadament\ les\ dades\ llegides\ del\ Scanner\ s.\ Es\ filtren\r\n\ \ les\ dades\ que\ tingueren\ algun\ defecte\ de\ format,\ emetent\ un\ informe\r\n\ \ d'errors.\r\n\ \ Precondicio\:\ El\ format\ de\ linia\ recognoscible\ es\r\n\ \ \ \ \ \ \ \ dia\ mes\ quantitat\r\n\ \ on\ dia\ i\ mes\ han\ de\ ser\ enters\ corresponents\ a\ una\ data\ valida,\r\n\ \ i\ quantitat\ ha\ de\ ser\ un\ enter\ >\ 0.\r\n\ \ La\ quantitat\ llegida\ s'acumula\ en\ el\ registre\ que\ es\ porta\ per\ \r\n\ \ al\ dia\ del\ mes.\r\n\ \ En\ err\ s'escriuen\ les\ linies\ defectuoses,\ indicant\ el\ nombre\ de\ linia.\r\n\ \ @param\ sc\ Scanner\ font\ de\ les\ dades.\r\n\ \ @param\ err\ Printwriter\ desti\ de\ l'informe\ d'errors.\r\n\ \ @return\ int,\ el\ nombre\ de\ linies\ processades.\r\n
+comment6.params=year
+comment6.target=boolean\ isLeap(int)
+comment6.text=\ Comprova\ si\ year\ es\ bixest.\r\n\ \ @param\ year\ int.\r\n\ \ @return\ true\ sii\ es\ bixest.\r\n
+numComments=7
