@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Test5
+comment0.text=\r\n\ Classe\ Test5.\ Classe\ programa\ que\ prova\ diferents\ accions\ sobre\ un\r\n\ grup\ de\ poligons,\ facilitant\ la\ visualitzacio\ del\ comportament\ \r\n\ d'aquestes\ accions\ mijan\u00E7ant\ una\ representacio\ grafica.\ \r\n\ \r\n\ @author\ IIP\ -\ Practica\ 7.\ PRG\ -\ Practica\ 5.\r\n\ @version\ Curs\ 2019/20\r\n
+comment1.params=
+comment1.target=Test5()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=kb
+comment3.target=int\ menu(java.util.Scanner)
+comment3.text=\r\n\ Mostra\ un\ menu\ d'opcions\ per\ pantalla\ i\r\n\ llig\ des\ de\ teclat\ una\ opcio\ valida.\r\n\ @param\ kb\ Scanner,\ el\ teclat.\r\n\ @return\ int,\ l'opcio\ valida.\r\n
+comment4.params=kb
+comment4.target=int\ submenu(java.util.Scanner)
+comment4.text=\r\n\ Mostra\ un\ submenu\ d'opcions\ per\ pantalla\ i\r\n\ llig\ des\ de\ teclat\ una\ opcio\ valida.\r\n\ @param\ kb\ Scanner,\ el\ teclat.\r\n\ @return\ int,\ l'opcio\ valida.\r\n
+comment5.params=gd\ g
+comment5.target=void\ drawGroup(graph2D.Graph2D,\ PolygonGroup)
+comment5.text=\ \r\n\ Mostra\ en\ l'eixida\ grafica\ un\ grup\ de\ poligons\ donat.\r\n\ @param\ gd\ Graph2D,\ el\ graf.\r\n\ @param\ p\ PolygonGroup,\ el\ grup\ de\ poligons.\r\n
+numComments=6
